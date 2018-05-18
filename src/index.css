@@ -1,0 +1,64 @@
+@charset "Shift_JIS";
+
+
+body {
+  text-align:center;
+	margin: 0 auto;
+	width:800px;
+}
+
+div{
+  display: block;
+}
+
+/* --- コンテナ --- */
+div#container {}
+
+/* --- ヘッダ --- */
+div#header {
+  background-color: #cccccc;
+  text-align:left; 
+  border:1px solid #000000;
+}
+
+/* --- コンテンツ --- */
+div#content {
+  background-color: #ffffff;
+  text-align:left;
+  margin:10px 0px 10px 0px;
+  height:700px;
+  border:1px solid #000000;
+}
+
+/* --- フッタ --- */
+div#footer {
+  background-color: #cccccc; /* フッタの背景色 */
+  text-align:left;
+  border:1px solid #000000;
+}
+
+div#mainview{
+  background-color:#ffffff;
+  text-align:left;
+  height:400px;
+  padding:10px; 
+}
+
+/*書き込みが表示される場所*/
+div.thread  {
+  background-color:rgb(239, 239, 239);
+  text-align:left;
+  margin:20px 20px 20px 20px;
+  padding:10px; 
+  border:1px solid #000000;
+}
+
+/*書き込みを投稿する場所*/ 
+div.browse{
+  font-size:12pt;
+  background:#ffffff;
+  text-align:left;
+  margin:20px 20px 20px 20px;
+  height:200px;
+  padding:10px;
+}
