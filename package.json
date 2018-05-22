@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/sutaaka/bbs#readme",
   "dependencies": {
+    "koa": "^2.5.1",
+    "koa-router": "^7.4.0",
     "mysql": "^2.15.0"
   }
 }
